@@ -426,7 +426,7 @@ void	SHT3x::SetTimeout(uint32_t TimeoutMillisec)
 {
 	if (TimeoutMillisec > 0)
 	{
-		_TimeoutMillisec = _TimeoutMillisec;
+		_TimeoutMillisec = TimeoutMillisec;
 	}
 }
 
